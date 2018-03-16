@@ -1,0 +1,10 @@
+Our project of choice was a 2-player turn-based game where each player tries to shoot a projectile over an obstacle at the other player. See screenshot.jpg for visual.
+
+Included Features/Functionalities:
+- 2 players shaped like tanks
+- horizontal player movement
+- 3 lives each
+- power up for health boost
+- projectile motion from 9 different launch angles
+- reset upon death
+- 

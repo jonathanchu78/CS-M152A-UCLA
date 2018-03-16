@@ -1,0 +1,36 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/Lab2/tb_isim_beh.exe -prj E:/Lab2/tb_beh.prj work.tb work.glbl 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Lab2/seq_add.v" into library work
+Analyzing Verilog file "E:/Lab2/uart_fifo.v" into library work
+Analyzing Verilog file "E:/Lab2/uart.v" into library work
+Analyzing Verilog file "E:/Lab2/seq_rf.v" into library work
+Analyzing Verilog file "E:/Lab2/seq_alu.v" into library work
+Analyzing Verilog file "E:/Lab2/uart_top.v" into library work
+Analyzing Verilog file "E:/Lab2/seq.v" into library work
+Analyzing Verilog file "E:/Lab2/nexys3.v" into library work
+Analyzing Verilog file "E:/Lab2/model_uart.v" into library work
+Analyzing Verilog file "E:/Lab2/tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module model_uart(baud=1000000,name="UA...
+Compiling module seq_rf_default
+Compiling module seq_add_default
+Compiling module seq_multi_default
+Compiling module seq_alu_default
+Compiling module seq_default
+Compiling module uart_fifo
+Compiling module uart
+Compiling module uart_top_default
+Compiling module nexys3_default
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable E:/Lab2/tb_isim_beh.exe
+Fuse Memory Usage: 28088 KB
+Fuse CPU Usage: 592 ms

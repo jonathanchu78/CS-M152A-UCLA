@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/lab1Updated/FPCVTTestBench_TB_isim_beh.exe -prj E:/lab1Updated/FPCVTTestBench_TB_beh.prj work.FPCVTTestBench_TB work.glbl 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/lab1Updated/Rounding.v" into library work
+Analyzing Verilog file "E:/lab1Updated/../Lab1/priorityencoder.v" into library work
+Analyzing Verilog file "E:/lab1Updated/../Lab1/lab1.v" into library work
+Analyzing Verilog file "E:/lab1Updated/FPCVT.v" into library work
+Analyzing Verilog file "E:/lab1Updated/FPCVTTestBench_TB.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module twoscmptosignedmag
+Compiling module priorityencoder
+Compiling module Rounding
+Compiling module FPCVT
+Compiling module FPCVTTestBench_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable E:/lab1Updated/FPCVTTestBench_TB_isim_beh.exe
+Fuse Memory Usage: 27240 KB
+Fuse CPU Usage: 561 ms

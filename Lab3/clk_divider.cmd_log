@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/152/Documents/Lab3/clk_divider.xst" -ofn "C:/Users/152/Documents/Lab3/clk_divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk_divider.ngc clk_divider.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_divider_map.ncd clk_divider.ngd clk_divider.pcf 
+par -w -intstyle ise -ol high -mt off clk_divider_map.ncd clk_divider.ncd clk_divider.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_divider.twx clk_divider.ncd -o clk_divider.twr clk_divider.pcf 

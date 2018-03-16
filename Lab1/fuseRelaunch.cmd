@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/lab1Updated/FPCVTTestBench_TB_isim_beh.exe" -prj "E:/lab1Updated/FPCVTTestBench_TB_beh.prj" "work.FPCVTTestBench_TB" "work.glbl" 
